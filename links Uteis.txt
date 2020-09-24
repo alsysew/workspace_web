@@ -3,10 +3,11 @@ https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-me
 http://www.professorisidro.com.br/wp-content/uploads/
 http://www.professorisidro.com.br/wp-content/uploads/java/
 http://www.professorisidro.com.br/wp-content/uploads/web/
+http://www.professorisidro.com.br/wp-content/uploads/web/EstruturaHTML.pdf
 
 https://www.youtube.com/watch?v=gxlxHYv-9oo&feature=youtu.be
 
-https://getbootstrap.com/
+
 
 http://www.torneseumprogramador.com.br/aula?id=PNScSt58ua0&aula=85&tipo=c-sharp&professor=Danilo
 http://www.torneseumprogramador.com.br/aula?id=sF_mDcxm06Y&aula=86&tipo=cache&professor=Danilo
@@ -15,10 +16,13 @@ http://www.torneseumprogramador.com.br/aulas/c-sharp
 
 https://github.com/Didox/validar-cpf-front-js-vanilla
 
-http://heroku.com/
+
 https://devcenter.heroku.com/articles/heroku-cli
 https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 
-
+https://github.com/
+https://getbootstrap.com/
+http://heroku.com/
+https://www.w3schools.com/
 
 
