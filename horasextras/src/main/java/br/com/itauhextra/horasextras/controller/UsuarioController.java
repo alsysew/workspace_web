@@ -36,30 +36,27 @@ public class UsuarioController {
 
 	}
 
-	// Ao retornar um objeto do tipo ResponseEntity, eu não quero que retorne apenas
-	// o conteúdo da mansagem, mas tambem quero manipular seu cabeçalho.
 
-	/*
-	 * @PostMapping("/usuarios/login") public Usuario logarUsuario(@RequestBody
-	 * Usuario dadosLogin) { Usuario resultado =
-	 * dao.findByRacfAndSenha(dadosLogin.getRacf(), dadosLogin.getSenha()); return
-	 * resultado; }
+	
+	/* ao retornar um objeto do tipo ResponseEntity, eu não quero que retorne apenas o conteúdo da mensagem,
+	 * mas também quero poder manipular seu cabeçalho!!
 	 */
-
 	@PostMapping("/usuarios/login")
 	public ResponseEntity<Usuario> logarUsuario(@RequestBody Usuario dadosLogin) {
 		Usuario res = dao.findByRacf(dadosLogin.getRacf());
-		if (res != null) {
+		if (res != null) {  // ele existe na base com o RACF informado?
 			if (res.getSenha().equals(dadosLogin.getSenha())) {
-				res.setSenha("*********");
-				return ResponseEntity.ok(res);
-			} else {
-				return ResponseEntity.status(401).build();
+				res.setSenha("********");
+				return ResponseEntity.ok(res); // retorno 200, com o objeto no corpo da resposta
 			}
-		} else {
-			return ResponseEntity.notFound().build();
+			else {
+				return ResponseEntity.status(401).build(); // retorno código 401 com corpo da mensagem vazio
+			}
 		}
-
+		else {
+			return ResponseEntity.notFound().build();  // se não existir, retorno um código 404
+		}
 	}
+	
 
 }

@@ -60,3 +60,23 @@ create table itmn232_ocorrencia(
     select * from itmn232_usuario;
     
     update itmn232_usuario set link_foto="https://conteudo.imguol.com.br/c/entretenimento/12/2019/01/30/ana-carolina-1548857596625_v2_450x450.pngx" where id_usuario=3;
+    
+use projetohoraextra;
+alter table itmn232_ocorrencia modify column num_horas varchar(10);
+
+
+
+select * from itmn232_ocorrencia;
+select * from itmn232_usuario;
+
+update itmn232_usuario set senha=1234 where id_usuario=2;
+
+
+insert into itmn232_ocorrencia values
+(null, 2, 8, '', '2020-09-09','01:30', 0,1);
+
+ 
+
+
+insert into itmn232_ocorrencia values
+(null, 3, 3, '', '2020-09-09','02:00', 0,1);

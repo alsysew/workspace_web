@@ -5,6 +5,7 @@ http://www.professorisidro.com.br/wp-content/uploads/java/
 http://www.professorisidro.com.br/wp-content/uploads/web/
 http://www.professorisidro.com.br/wp-content/uploads/web/EstruturaHTML.pdf
 
+https://www.youtube.com/watch?v=9cKsq14Kfsw
 https://www.youtube.com/watch?v=gxlxHYv-9oo&feature=youtu.be
 
 
@@ -24,5 +25,10 @@ https://github.com/
 https://getbootstrap.com/
 http://heroku.com/
 https://www.w3schools.com/
+app.diagrams.net
 
 
+
+{"id":3,"nome":"Ana Designer","email":"ana@ana.com","racf":"1234569","senha":"*********",
+"linkFoto":"https://conteudo.imguol.com.br/c/entretenimento/12/2019/01/30/ana-carolina-1548857596625_v2_450x450.pngx",
+"gestor":0,"listaOcorrencias":[{"numSeq":3,"descricao":"","data":"2020-09-09","numHoras":"02:00","pontoManual":0,"status":1,"atividade":{"id":3,"nome":"Acionamento por Incidente"}}]}

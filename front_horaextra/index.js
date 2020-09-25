@@ -38,14 +38,14 @@ function trataStatus(res) {
 
 }
 
-function redirecionar(objUser){
+function redirecionar(objUser) {
     //gravo localmente as infos do usuário 
     localStorage.setItem("userHE", JSON.stringify(objUser));
     console.log(objUser);
-    if (objUser.gestor == 1){
+    if (objUser.gestor == 1) {
         window.location = "gestor.html"
     }
-    else{
+    else {
         window.location = "colaborador.html"
     }
 }
